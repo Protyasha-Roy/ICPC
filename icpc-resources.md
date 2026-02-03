@@ -27,3 +27,4 @@
 - https://www.icpc.bubt.edu.bd/environment.php
 - https://www.science.smith.edu/~jorourke/index.html
 - https://www.science.smith.edu/~jorourke/books/compgeom.html
+- https://github.com/priyanshujhagithub/CP-resources-/blob/master/Material/Books/Competitive%20Programming%204%20-%20Book%201.pdf
