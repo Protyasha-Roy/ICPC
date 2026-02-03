@@ -28,3 +28,4 @@
 - https://www.science.smith.edu/~jorourke/index.html
 - https://www.science.smith.edu/~jorourke/books/compgeom.html
 - https://github.com/priyanshujhagithub/CP-resources-/tree/master?tab=readme-ov-file
+- https://www.codechef.com/icpc
