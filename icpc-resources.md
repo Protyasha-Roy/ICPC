@@ -29,3 +29,6 @@
 - https://www.science.smith.edu/~jorourke/books/compgeom.html
 - https://github.com/priyanshujhagithub/CP-resources-/tree/master?tab=readme-ov-file
 - https://www.codechef.com/icpc
+- https://docs.google.com/spreadsheets/d/1yrlqsx18S8H3f-kIQxv9x4GiY9nWaQ84/edit?gid=1089081647#gid=1089081647
+- https://msc.acm.org/training
+- https://github.com/buckeye-cn/ACM_ICPC_Materials
