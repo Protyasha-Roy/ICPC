@@ -1,0 +1,29 @@
+- https://www.reddit.com/r/csMajors/comments/z4qjzx/a_guide_to_competitive_programming/
+- https://u.icpc.global/curriculum/
+- https://u.icpc.global/training/
+- https://solved.ac/en
+- https://usaco.guide/
+- https://open.kattis.com/
+- https://cp-algorithms.com/
+- https://icpc.foundation/projects/
+- https://icpc.global/regionals/rules
+- https://u.icpc.global/tools_and_docs/
+- https://u.icpc.global/training/napc/
+- https://docs.google.com/document/d/1kDOzJPZeIvWDLQj2f-eMg29s6H1DIRBYsHDG76k-cmA/edit?tab=t.0
+- https://cphof.org/
+- https://cphof.org/top/major
+- https://na.icpc.global/2022-23/naq/   : faq is good
+- https://codeforces.com/blog/entry/23054     : GEM
+- https://adventofcode.com/
+- https://www.geeksforgeeks.org/blogs/how-to-prepare-for-acm-icpc/
+- https://icpc.global/worldfinals/past-problems
+- https://icpcarchive.github.io/
+- https://cplusplus.com/
+- https://cs.slu.edu/~goldwasser/icpc/resources/
+- https://www.icpc.bubt.edu.bd/resources.php
+- https://open.kattis.com/search?q=icpc
+- https://www.codechef.com/practice/icpc
+- https://codeforces.com/blog/entry/136296
+- https://www.icpc.bubt.edu.bd/environment.php
+- https://www.science.smith.edu/~jorourke/index.html
+- https://www.science.smith.edu/~jorourke/books/compgeom.html
