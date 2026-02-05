@@ -6,4 +6,9 @@ Typing speed
 IDE/Text editor navigation + Execution + Compilers
 
 C++
+CSES problemset
+CP4 book 1-2
 A competitive programmer's handbook.
+Introduction to Algorithms by CLRS
+USACO problems
+Looking for a Challenge? (The Warsaw University Series)

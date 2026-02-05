@@ -40,3 +40,7 @@
 - https://cplusplus.com/doc/tutorial/
 - https://www.w3schools.com/cpp/default.asp
 - https://www.learncpp.com/
+- https://www.w3resource.com/cpp-exercises/basic/index.php
+- https://www.codechef.com/practice/cpp
+- https://kenkoooo.com/atcoder/#/table/
+- 
