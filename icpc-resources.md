@@ -32,3 +32,11 @@
 - https://docs.google.com/spreadsheets/d/1yrlqsx18S8H3f-kIQxv9x4GiY9nWaQ84/edit?gid=1089081647#gid=1089081647
 - https://msc.acm.org/training
 - https://github.com/buckeye-cn/ACM_ICPC_Materials
+- https://docs.icpc.global/worldfinals-programming-environment/
+- https://codeforces.com/blog/entry/103077
+- https://a2oj.online/
+- https://acm.timus.ru/
+- https://earthshakira.github.io/a2oj-clientside/server/Ladders.html
+- https://cplusplus.com/doc/tutorial/
+- https://www.w3schools.com/cpp/default.asp
+- https://www.learncpp.com/
