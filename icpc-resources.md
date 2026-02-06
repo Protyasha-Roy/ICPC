@@ -43,4 +43,5 @@
 - https://www.w3resource.com/cpp-exercises/basic/index.php
 - https://www.codechef.com/practice/cpp
 - https://kenkoooo.com/atcoder/#/table/
-- 
+- https://codelikeagirl.substack.com/p/compiler-steps-explained 
+-  https://www.cprogramming.com/tutorial/c++-tutorial.html?inl=nv
