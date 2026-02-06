@@ -44,4 +44,5 @@
 - https://www.codechef.com/practice/cpp
 - https://kenkoooo.com/atcoder/#/table/
 - https://codelikeagirl.substack.com/p/compiler-steps-explained 
--  https://www.cprogramming.com/tutorial/c++-tutorial.html?inl=nv
+- https://www.cprogramming.com/tutorial/c++-tutorial.html?inl=nv
+- https://euc.icpc.global/home-2025/programming-environment/
