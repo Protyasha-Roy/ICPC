@@ -330,11 +330,127 @@ It's preceeded with a 'template' keyword along with some parameters enclosed in 
 template <template-parameters> function-declaration
 
 ```c++
-    template <class SomeType> // we can also use the keyword typename to define the name of the generic type
+    template <class SomeType, class AnotherType, int N> // we can also use the keyword typename to define the name of the generic type
     SomeType sum (SomeType a, SomeType b)
     {
       return a+b;
     }
+
+    int main() {
+      cout << sum<int, double>(2, 23.22); // we can also leave the angle brackets, it automatically detects from the arguments types passed.
+      cout << sum<int, int, 3>(32,33); // Non-type template arguments. So we can directly declare a typed variable inside the template and fix a value during call.
+    }
 ```
 
+We can define multiple types by separating with a comma in the types list inside template's angle brackets.
+
 ## Name visibility
+Variables can't be accessed randomly. It depends on where a variable is being declared.
+Two scopes:
+  1. Global scope: variables/entities declared outside the main function or any other function.
+  2. Local scope: locally declared variables/entities.
+
+In C++ we can even create local blocks of code without creating a different function for it using the curly braces.
+```c++
+// inner block scopes
+#include <iostream>
+using namespace std;
+
+int main () {
+  int x = 10;
+  int y = 20;
+  {
+    int x;   // ok, inner scope.
+    x = 50;  // sets value to inner x
+    y = 50;  // sets value to (outer) y
+    cout << "inner block:\n";
+    cout << "x: " << x << '\n';
+    cout << "y: " << y << '\n';
+  }
+  cout << "outer block:\n";
+  cout << "x: " << x << '\n';
+  cout << "y: " << y << '\n';
+  return 0;
+}
+```
+
+Namespaces are another way to wrap entities to group them under a common name. This is done to avoid naming collisions and helps in scoping.
+Declaring a namespace:
+namespace [identifier] {
+  entities..
+}
+
+There are two ways to use a namespace:
+  1. [namespace-identifier]::entity // here :: is named a scope resolution operator that help us access entities from the namespace. Needs to be used everytime the entity is used.
+  2. 'using' keyword: using namespace [namespace-identifier] // This gives a global qualification of names. We can even only access single entities instead of the whole namespace.
+  We can introduce names in the declarative region.
+
+The storage for variables with global or namespace scope is allocated for the entire duration of the program. This is known as static storage, and it contrasts with the storage
+for local variables (those declared within a block). These use what is known as automatic storage.
+
+static variables: persists through the whole program. initializes 0 to variables that are not initialized.
+automatic variables: only persists till the function it was declared in. initializes undetermined values.
+
+
+
+# Compound data types
+## Arrays
+Arrays are compound types. Arrays are basically sequences of data. A specific array can store data of a specific type in a sequantial manner in memory.
+So, instead of creating multiple variables for the same type, we can simply store data as arrays and access with a single identifier.
+Syntax to declare arrays:
+[type] [identifier][size-of-array] = {elements here separated by comma...};
+
+We can as well create multi-dimensional arrays that act like rows and columns.
+[type] [identifier][rows][cols][and more....];
+
+But in case of multi-dimensional arrays the number of memory blocks it takes increasees exponentially.
+But with a formula we can represent 2D arrays in 1D arrays. The formula is:
+
+Index = arr[(i * cols) + j] // if arr[rows][cols] is an array and the th' element is arr[i][j];
+
+By default empty arrays are given values of 0.
+We can't use pointers without defining it's size if we are not initializing the values. Otherwise we can just leave the [] empty if we do initialize the values.
+We access array's values using their index. Index starts with 0.
+
+In C++/C we can't send arrays directly as arguments/parameters like variables. What we need to send is the address. In order to use arrays in functions:
+Calling the function:
+int arr[3] = {3,4,5};
+somefunction(arr, 3);
+
+Function def:
+int somefunction(arr[], int size) {
+  rest of the code...
+}
+
+As alternative to built-in arrays, we have container library array which actually allows copying the whole block of memory, thus an expensive operation.
+In ordeer to use this we need to include the <array> library. It's basically a class template.
+Usage:
+array<[type-of-array], size> [identifier] {elements..};
+Accessing it is similar to built-in arrays.
+
+## Character sequences
+Strings are essentially arrays of type character.
+Thus, we can actually create a string of characters using arrays.
+char str[20] = {'h', 'e', 'l', 'l', 'o', '\n'};
+
+though in this case we need to add a null-terminator character - '\0'; this tells the compiler that it's the end of the string.
+
+We can also define array strings with string literals like:
+char str[] = "hello";
+
+In this case the null-terminated character gets added automatically. So, everytime we work with built-in arrays and strings, we have
+to keep in mind to also consider storage for the null-terminated character.
+Also string arrays can't be redefined if defined once. We can only change characters by changing each element one by one using str[index] = 'j'.
+
+
+We can turn array-strings to library strings and vice-versa.
+char str[] = "hello"; // this type of strings are also known as c-strings. 
+string strr = str;
+and
+str = strr.c_str(); // we need to include c_str() method/function from <string> library.
+
+
+## Pointers
+## Dynamic memory
+## Data structures
+## Other data types
