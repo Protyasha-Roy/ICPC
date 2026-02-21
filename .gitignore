@@ -1,0 +1,11 @@
+# Ignore default GCC output
+a.out
+
+# Ignore all .out files
+*.out
+
+# Ignore other compiled binaries
+*.exe
+*.o
+*.obj
+
